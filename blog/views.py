@@ -30,7 +30,7 @@ class RecipeList(generic.ListView):
     queryset = Recipe.objects.filter(status_recipe=1).order_by('-created_date')
     template_name = 'index.html'
     paginate_by = 6
-    print(queryset)
+
     
 
 class PostDetail(View):
