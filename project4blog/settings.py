@@ -34,7 +34,8 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['project4blog.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['project4bloglulu.herokuapp.com', 'localhost']
+# ALLOWED_HOSTS = ['project4blog.herokuapp.com', 'localhost']
 
 
 # Application definition
